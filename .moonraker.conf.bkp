@@ -11,12 +11,13 @@ temperature_store_size = 600
 gcode_store_size = 1000
 
 [authorization]
-force_logins = True
+force_logins = False
 cors_domains = 
 	*.local
 	*.lan
 	*://app.fluidd.xyz
 trusted_clients = 
+	0.0.0.0/8
 	10.0.0.0/8
 	127.0.0.0/8
 	169.254.0.0/16
